@@ -1,4 +1,5 @@
 import { useState, useRef, MouseEvent } from "react";
+import { BentoCard2 } from "./Upcoming";
 
 
 type BentoTiltProps = {
@@ -152,24 +153,36 @@ const Features: React.FC = () => (
   </div>
 
   <div className="col-span-12 md:col-span-5 row-span-2">
-    <BentoTilt className="bento-tilt_2 relative h-[30vh] md:h-[50vh]">
+  <BentoTilt className="bento-tilt_2 relative h-[50vh]">
       <BentoCard
-        src="videos/hero-2.mp4"
+        src="videos/hellblade.mkv"
+        title={
+          <>
+            best <b>Performance</b>
+          </>
+        }
+        description="Melina Juergens as Senua – Senua's Saga: Hellblade II"
+        isComingSoon
+      />
+    </BentoTilt>
+    {/* <BentoTilt className="bento-tilt_2 relative h-[30vh] md:h-[50vh]">
+      <BentoCard2
+        src="https://images2.alphacoders.com/137/thumb-1920-1370689.jpeg"
         title={
           <>
             best <b>Fighting</b> Game
           </>
         }
         description="Tekken 8"
-        isComingSoon
+        
       />
-    </BentoTilt>
+    </BentoTilt> */}
   </div>
 
   <div className="col-span-12">
     <BentoTilt className="bento-tilt_1 relative h-96 md:h-[65vh]">
-      <BentoCard
-        src="videos/gta6.mkv"
+      <BentoCard2
+        src="https://wallpapercg.com/download/gta-6-5120x1440-18772.jpg"
         title={
           <>
             the most <b>anticipated</b> game
@@ -192,22 +205,24 @@ const Features: React.FC = () => (
           </>
         }
         description="Metaphor: ReFantazio – Studio Zero / Sega"
-        isComingSoon
+        
       />
     </BentoTilt>
   </div>
 
   <div className="col-span-12 md:col-span-4">
-    <BentoTilt className="bento-tilt_2 relative h-[50vh]">
-      <BentoCard
-        src="videos/hellblade.mkv"
+    
+
+    <BentoTilt className="bento-tilt_2 relative h-[30vh] md:h-[50vh]">
+      <BentoCard2
+        src="https://images2.alphacoders.com/137/thumb-1920-1370689.jpeg"
         title={
           <>
-            best <b>Performance</b>
+            best <b>Fighting</b> Game
           </>
         }
-        description="Melina Juergens as Senua – Senua's Saga: Hellblade II"
-        isComingSoon
+        description="Tekken 8"
+        
       />
     </BentoTilt>
   </div>
