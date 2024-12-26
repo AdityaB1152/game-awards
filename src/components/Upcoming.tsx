@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import gsap from "gsap";
 import { useRef, useEffect, useState } from "react";
 import { BentoTilt } from "./Features";

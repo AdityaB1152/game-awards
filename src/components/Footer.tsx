@@ -1,10 +1,10 @@
-import { FaDiscord, FaTwitter, FaYoutube, FaMedium, FaLinkedin, FaGithub, FaMailBulk } from "react-icons/fa";
+import {  FaLinkedin, FaGithub, FaMailBulk } from "react-icons/fa";
 import { FaHashnode } from "react-icons/fa6";
 
 const socialLinks = [
-  { href: "https://discord.com", icon: <FaLinkedin /> },
+  { href: "https://www.linkedin.com/in/aditya-bonde-9311141b7/", icon: <FaLinkedin /> },
   { href: "https://github.com/AdityaB1152", icon: <FaGithub /> },
-  { href: "https://youtube.com", icon: <FaMailBulk /> },
+  { href: "mailto:aditya.bonde1152@gmail.com", icon: <FaMailBulk /> },
   { href: "https://adityabonde.hashnode.dev/", icon: <FaHashnode /> },
 ];
 
