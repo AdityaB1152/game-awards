@@ -1,4 +1,7 @@
+
 # React + TypeScript + Vite
+
+## Check out the live website [Game Awards](https://game-awards-three.vercel.app/)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
